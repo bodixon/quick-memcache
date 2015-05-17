@@ -6,3 +6,4 @@ php:
 
 before_script:
     - phpenv config-add memcache.ini
+    - composer install
