@@ -1,6 +1,7 @@
-# Eclipse service files
-.project
-.settings
-.buildpath
-
 /vendor/
+/composer.lock
+
+# Eclipse service files
+/.project
+/.settings
+/.buildpath
