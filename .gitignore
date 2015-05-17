@@ -1,0 +1,4 @@
+# Eclipse service files
+.project
+.settings
+.buildpath
