@@ -1,0 +1,22 @@
+{
+    "name": "bodixon/quick-memcache",
+    "description": "Memcache adapter",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Bogdan Kuternoga",
+            "email": "b.bodixon@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^4.6",
+        "silex/silex": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "QuickMemcache\\Tests\\": "tests/",
+            "QuickMemcache\\": "src/"
+        }
+    }
+}
