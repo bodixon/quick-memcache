@@ -6,6 +6,6 @@ php:
 
 before_script:
     - sudo apt-get update
-    - sudo apt-get memcached
+    - sudo apt-get install memcached
     - phpenv config-add memcache.ini
     - composer install
